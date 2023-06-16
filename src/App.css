@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=Gamja+Flower&family=Moirai+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cute+Font&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.All {
+  min-width: 800px;
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+  height: 100vh;
+}
+
+.first {
+  font-size: 80px;
+  text-align: center;
+  color: white;
+  background-color: rgb(163, 124, 180);
+  border-radius: 5px;
+  font-family: "Gamja Flower", cursive;
+  font-family: "Moirai One", cursive;
+}
+
+.second {
+  height: 80px;
+  text-align: center;
+  line-height: 80px;
+  background-color: whitesmoke;
+  font-size: 30px;
+  border-radius: 5px;
+  font-family: "Cute Font", cursive;
+}
+
+.mintitle {
+  font-family: "Cute Font", cursive;
+  font-size: 40px;
+}
+.second > input {
+  margin-right: 70px;
+  height: 25px;
+  width: 200px;
+  border: 2px solid rgba(68, 40, 80, 0.744);
+  border-radius: 7px;
+  font-family: "Cute Font", cursive;
+  font-size: 25px;
+}
+
+.second > button {
+  width: 100px;
+  height: 30px;
+  font-size: 20px;
+  border: 2px solid rgba(68, 40, 80, 0.744);
+  border-radius: 7px;
+  background-color: rgba(109, 66, 128, 0.744);
+  color: white;
+  font-family: "Cute Font", cursive;
+}
+
+.list-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px 2%;
+}
+
+.todo-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 20px;
+  width: 280px;
+  padding: 25px;
+  margin: 20px 20px;
+  border: 5px solid rgba(109, 66, 128, 0.744);
+  border-radius: 20px;
+  font-family: "Cute Font", cursive;
+  font-size: 20px;
+}
+.but-set > button {
+  margin-right: 20px;
+  font-family: "Cute Font", cursive;
+  width: 100px;
+  height: 30px;
+  font-size: 20px;
+  border: 2px solid rgba(68, 40, 80, 0.744);
+  border-radius: 7px;
+  background-color: rgba(109, 66, 128, 0.744);
+  color: white;
+}
+
+.todo-title {
+  margin-bottom: 20px;
+}
